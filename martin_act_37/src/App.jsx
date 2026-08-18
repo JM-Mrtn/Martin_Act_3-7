@@ -77,7 +77,7 @@ export default function App() {
         <main className="mx-auto max-w-6xl px-5 py-12 md:py-16">
           <section className={`grid gap-8 border-b pb-12 md:grid-cols-[1.3fr_0.7fr] md:items-end ${colors.line}`}>
             <div><p className="mb-4 text-sm font-semibold uppercase tracking-[0.18em] text-[#c94a32]">React Exercises</p><h1 className="max-w-3xl text-4xl font-bold leading-tight md:text-6xl">Small activities for practicing React fundamentals.</h1></div>
-            
+            <p className={`max-w-md leading-7 md:pb-1 ${colors.muted}`}>This project contains five exercises covering component state, event handling, form validation, conditional rendering, and basic calculations.</p>
           </section>
 
           <section className="mt-12">
@@ -93,7 +93,7 @@ export default function App() {
             </div>
           </section>
 
-          <footer className={`mt-10 flex flex-col gap-2 text-sm sm:flex-row sm:justify-between ${colors.muted}`}><span>React Activity Portal</span></footer>
+          <footer className={`mt-10 flex flex-col gap-2 text-sm sm:flex-row sm:justify-between ${colors.muted}`}><span>React Activity Portal</span><span>State · Events · Validation · Calculations</span></footer>
         </main>
       ) : (
         <div className={`min-h-[calc(100vh-81px)] transition-colors duration-200 ${darkMode ? "bg-[#171717] text-[#ece9e2]" : "bg-[#f5f3ee] text-[#252525]"}`}><Activity darkMode={darkMode} /></div>

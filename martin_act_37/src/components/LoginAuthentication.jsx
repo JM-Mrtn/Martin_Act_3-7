@@ -64,7 +64,8 @@ export default function LoginAuthentication({ darkMode = false }) {
           <h2 className="mb-3 text-lg font-bold">About this activity</h2>
 
           <p className={`max-w-sm text-sm leading-6 ${styles.muted}`}>
-            Enter the sample credentials to log in.
+            Enter the sample credentials to test form handling, validation,
+            conditional rendering, and login state.
           </p>
 
           <div
